@@ -1,0 +1,15 @@
+student:
+  name: 小张同学
+  age: 10
+  grade: 三年级
+  school:
+    name: xxx学校
+    locate: xxx省xxx市
+  hobbyList:
+    - 游戏
+    - 旅游
+    - 看书
+  allow-late-time: 300
+teacher:
+  name: 王老师
+  age: 36
