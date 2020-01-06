@@ -76,7 +76,7 @@ public class ConfigurationPropertiesApplication implements ApplicationRunner {
 这种方式要求@ConfigurationProperties注解的类的属性必须要有Setter方法
 
 （2）通过@ConfigurationProperties注解的类构造方法
-通过构造方法来进行属性值绑定，必须使用`@ConstructorBinding`注解到类上或者构造方法上。比如：
+通过构造方法来进行属性值绑定，必须使用`@ConstructorBinding`注解到类上或者构造方法上指定属性值绑定方式为构造函数绑定。比如：
 ```java
 @ConfigurationProperties(prefix = "student",ignoreInvalidFields = false,ignoreUnknownFields = false)
 public class StudentProperties {
