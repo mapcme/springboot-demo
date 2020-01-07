@@ -165,7 +165,7 @@ public @interface ConfigurationProperties {
 }
 ```
 
-（2）使用hibernate validator或 javax.validation验证框架进行验证
+（2）使用hibernate validator或 javax validation验证框架进行验证
 ```java
 @Validated
 @Configuration
@@ -211,7 +211,7 @@ public class StudentProperties {
 }
 ```
 ------
-Demo源码：
+点击查看[Demo源码](https://github.com/mapcme/springboot-demo/tree/master/spring-annotations/configuration-properties)
 
 #### 参考资料：
 
